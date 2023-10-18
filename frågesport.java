@@ -18,7 +18,6 @@ public class frågesport {
             
             default:
             System.out.println("Fel");
-            poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
 
         }
@@ -38,7 +37,6 @@ public class frågesport {
             
             default:
             System.out.println("Fel");
-            poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
 
         }
@@ -57,7 +55,6 @@ public class frågesport {
             
             default:
             System.out.println("Fel");
-            poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
 
         }
@@ -76,7 +73,6 @@ public class frågesport {
             
             default:
             System.out.println("Fel");
-            poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
 
         }
@@ -95,7 +91,6 @@ public class frågesport {
             
             default:
             System.out.println("Fel");
-            poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
 
         }
