@@ -10,29 +10,16 @@ public class frågesport {
         int val1 = tb.nextInt();
 
         switch(val1){
-            case 1: 
+            case 1:
             System.out.println("Rätt");
             poäng+=1;
             System.out.println("Du har "+poäng+" poäng");
             break;
-
-            case 2:
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
             
-            case 3:
+            default:
             System.out.println("Fel");
             poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
-            break;
-            
-            case 4:
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
 
         }
         System.out.println("");
@@ -42,17 +29,6 @@ public class frågesport {
         int val2 = tb.nextInt();
 
         switch(val2){
-            case 1: 
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
-
-            case 2:
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
             
             case 3:
             System.out.println("Rätt");
@@ -60,11 +36,10 @@ public class frågesport {
             System.out.println("Du har "+poäng+" poäng");
             break;
             
-            case 4:
+            default:
             System.out.println("Fel");
             poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
-            break;
 
         }
         System.out.println("");
@@ -74,29 +49,16 @@ public class frågesport {
         int val3 = tb.nextInt();
 
         switch(val3){
-            case 1: 
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
-
             case 2:
             System.out.println("Rätt");
             poäng+=1;
             System.out.println("Du har "+poäng+" poäng");
             break;
             
-            case 3:
+            default:
             System.out.println("Fel");
             poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
-            break;
-            
-            case 4:
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
 
         }
         System.out.println("");
@@ -106,29 +68,16 @@ public class frågesport {
         int val4 = tb.nextInt();
 
         switch(val4){
-            case 1: 
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
-
-            case 2:
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
-            
             case 3:
             System.out.println("Rätt");
             poäng+=1;
             System.out.println("Du har "+poäng+" poäng");
             break;
             
-            case 4:
+            default:
             System.out.println("Fel");
             poäng+=0;
             System.out.println("Du har "+poäng+" poäng");
-            break;
 
         }
         System.out.println("");
@@ -138,29 +87,16 @@ public class frågesport {
         int val5 = tb.nextInt();
 
         switch(val5){
-            case 1: 
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
-
-            case 2:
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
-            
-            case 3:
-            System.out.println("Fel");
-            poäng+=0;
-            System.out.println("Du har "+poäng+" poäng");
-            break;
-            
             case 4:
             System.out.println("Rätt");
             poäng+=1;
             System.out.println("Du har "+poäng+" poäng");
             break;
+            
+            default:
+            System.out.println("Fel");
+            poäng+=0;
+            System.out.println("Du har "+poäng+" poäng");
 
         }
         System.out.println("Du fick "+poäng+"/5 poäng");
