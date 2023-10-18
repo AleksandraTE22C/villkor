@@ -46,7 +46,19 @@ public class if_else{
             System.out.println(tal2+ " är mindre än " +tal1);
         }
 
-        
+        System.out.println("");
+        System.out.println("Uppgift D");
+        double tid = 12;
+
+        if(tid>=7.00 && tid<12.00){
+            System.out.println("Dags att gå upp");
+        }
+        else if(tid==12.00){
+            System.out.println("Dags att äta");
+        }
+        else if(tid>=23.00){
+            System.out.println("Dags att gå och lägga sig");
+        }
 
     }
 }
