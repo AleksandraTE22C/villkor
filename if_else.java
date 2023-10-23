@@ -64,18 +64,42 @@ public class if_else{
         System.out.println("");
         System.out.println("Uppgift E");
         Scanner tb = new Scanner (System.in);
+        String ja = "JA";
+        String nej = "NEJ";
 
         System.out.println("Hur gammal är du?");
         int ålder = tb.nextInt();
 
-        System.out.println("Är du en medlem? Ja=1 Nej=2");
-        int medlem = tb.nextInt();
+        System.out.println("Är du en medlem? Ja eller nej?");
+        String medlem = tb.next();
 
-        if(ålder>=18 || medlem==1){
+        if(ålder>=18 || medlem.equalsIgnoreCase(ja)){
             System.out.println("Välkommen");
         }
-        else if(ålder<18 || medlem==2){
+        else if(ålder<18 || medlem.equalsIgnoreCase(nej)){
             System.out.println("Gå härifrån");
         }
+
+        System.out.println("");
+        System.out.println("Uppgift F");
+        String namn = "root";
+        String pass = "passwd";
+
+        System.out.println("Skriv ditt användarnamn: ");
+        String användarnamn = tb.next();
+
+        System.out.println("Skriv ditt lösenord: ");
+        String lösenord = tb.next();
+
+        if (användarnamn.equals(namn) && lösenord.equals(pass)){
+            System.out.println("loggar in...");
+        }
+        else if(användarnamn.equals(namn)){
+            System.out.println("Fel lösenord");
+        }
+        else if(lösenord.equals(pass)){
+            System.out.println("Fel användarnamn");
+        }
+
     }
 }
