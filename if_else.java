@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class if_else{
     public static void main (String args[]){
+        Scanner tb = new Scanner (System.in);
 
         System.out.println("Uppgift A");
         /*int litetTal=10;
@@ -49,7 +50,9 @@ public class if_else{
 
         System.out.println("");
         System.out.println("Uppgift D");
-        double tid = 12;
+
+        System.out.println("Vad är klockan?");
+        double tid = (double)tb.nextDouble();
 
         if(tid>=7.00 && tid<12.00){
             System.out.println("Dags att gå upp");
@@ -63,7 +66,6 @@ public class if_else{
 
         System.out.println("");
         System.out.println("Uppgift E");
-        Scanner tb = new Scanner (System.in);
         String ja = "JA";
         String nej = "NEJ";
 
@@ -100,6 +102,33 @@ public class if_else{
         else if(lösenord.equals(pass)){
             System.out.println("Fel användarnamn");
         }
+        else {
+            System.out.println("Fel användarnamn och lösenord");
+        }
 
+        System.out.println("");
+        System.out.println("Uppgift G");
+
+        System.out.println("Meny Väderprogram");
+        System.out.println("1. Skriv ut temperatur");
+        System.out.println("2. Skriv ut vind");
+        System.out.println("3. Skriv ut luftfuktighet");
+        System.out.print("Ange val:");
+        int val = tb.nextInt();
+
+        switch(val){
+
+            case 1:
+            System.out.println("Det är 18 grader.");
+            break;
+
+            case 2: 
+            System.out.println("Vinden är 10 sekund-meter.");
+            break;
+
+            case 3: 
+            System.out.println("Det är 100% luftfuktighet");
+            break;
+        }
     }
 }
