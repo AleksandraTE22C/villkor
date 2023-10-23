@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class if_else{
     public static void main (String args[]){
 
@@ -60,5 +61,21 @@ public class if_else{
             System.out.println("Dags att gå och lägga sig");
         }
 
+        System.out.println("");
+        System.out.println("Uppgift E");
+        Scanner tb = new Scanner (System.in);
+
+        System.out.println("Hur gammal är du?");
+        int ålder = tb.nextInt();
+
+        System.out.println("Är du en medlem? Ja=1 Nej=2");
+        int medlem = tb.nextInt();
+
+        if(ålder>=18 || medlem==1){
+            System.out.println("Välkommen");
+        }
+        else if(ålder<18 || medlem==2){
+            System.out.println("Gå härifrån");
+        }
     }
 }
