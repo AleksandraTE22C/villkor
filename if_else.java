@@ -28,7 +28,7 @@ public class if_else{
 
         if(litetTal<1000)
         {
-            System.out.println(litetTal +" är mindre än "+stortTal);
+            System.out.println(litetTal+" är mindre än "+stortTal);
         }
         else
         {

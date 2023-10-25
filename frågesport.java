@@ -12,7 +12,7 @@ public class frågesport {
         switch(val1){
             case 1:
             System.out.println("Rätt");
-            poäng+=1;
+            poäng++;
             System.out.println("Du har "+poäng+" poäng");
             break;
             
@@ -31,7 +31,7 @@ public class frågesport {
             
             case 3:
             System.out.println("Rätt");
-            poäng+=1;
+            poäng++;
             System.out.println("Du har "+poäng+" poäng");
             break;
             
@@ -49,7 +49,7 @@ public class frågesport {
         switch(val3){
             case 2:
             System.out.println("Rätt");
-            poäng+=1;
+            poäng++;
             System.out.println("Du har "+poäng+" poäng");
             break;
             
@@ -67,7 +67,7 @@ public class frågesport {
         switch(val4){
             case 3:
             System.out.println("Rätt");
-            poäng+=1;
+            poäng++;
             System.out.println("Du har "+poäng+" poäng");
             break;
             
@@ -85,7 +85,7 @@ public class frågesport {
         switch(val5){
             case 4:
             System.out.println("Rätt");
-            poäng+=1;
+            poäng++;
             System.out.println("Du har "+poäng+" poäng");
             break;
             
